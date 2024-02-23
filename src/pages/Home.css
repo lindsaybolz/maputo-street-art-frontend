@@ -1,0 +1,122 @@
+* {
+    /* border: solid; */
+}
+
+.bullets {
+    /* color: white; */
+    /* font-weight: 900; */
+    font-size: 1.5em;
+    /* font-family: 'Helvetica Neue'; */
+    width: 60%;
+    padding-right: 2em;
+    text-align: right;
+    align-self: flex-end;
+
+    /* border: solid; */
+}
+
+.demo-bg {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;  
+
+}
+
+.homeContainer {
+    overflow: hidden;
+    position: relative;  
+    font-family: 'Helvetica Neue';
+    color: white;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.launchStatement {
+    font-size: 2em;
+}
+
+.leftOfVideoSection {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    /* color: white; */
+}
+
+.navBarContainer:hover {
+    background-color: #06BFCB;
+}
+
+.quote {
+    /* color: white; */
+    font-weight: 900;
+    font-size: 2.5em;
+    /* font-family: 'Helvetica Neue'; */
+    width: 50%;
+    padding-right: 1em;
+    /* border: solid; */
+    /* width: 100%; */
+    text-align: right;
+    align-self: flex-end;
+}
+
+.topSection {
+    position: relative;
+    /* height: 42em; */
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content:; */
+}
+
+.tourLink {
+    background-color: #483CBC;
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    font-size: 1.25em;
+    border-radius: .3em;
+    align-self: center;
+    text-align: center;
+    width: 80%;
+}
+
+.videoSection {
+    position: relative;
+    display: flex;
+    /* border: solid; */
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    background-color: #f4972d;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    gap: 1em;
+    justify-content: space-evenly;
+    /* opacity: 0.6;
+    position: relative; */
+}
+
+.youTubeComponent {
+    /* border: solid #483CBC; */
+    width: 100%;
+    height: 15em;
+    align-self: center;
+    align-items: center;
+    /* grid-column: span 2; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-self: center; */
+    /* width: 50%; */
+    /* border: solid green 10px; */
+}
+
+/* 
+Orange: FB8DOC
+aqua: O6BFCB
+red: DB0100
+brown: DB0100
+purple: 483CBC
+*/

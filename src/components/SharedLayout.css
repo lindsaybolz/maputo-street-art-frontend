@@ -1,15 +1,20 @@
 * {
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 .sharedLayoutContainer {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
     flex-wrap: wrap;
     /* align-content: space-between; */
     justify-content: space-between;
     /* border: solid red; */
+    background: url(../resources/image11.jpeg) no-repeat center center fixed;
+    -webkit-backgrount-size: cover;
+    -moz-backgound-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .title {

@@ -1,0 +1,43 @@
+.storyContainer {
+    padding-left: 2em;
+    /* background-color: violet; */
+    display: flex;
+    gap: 1em;
+}
+
+.storyImg {
+    width: 18em;
+}
+
+.storyText {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    padding-left: 0;
+    gap: 2em;
+    padding-right: 1em;
+}
+
+.title {
+    text-align: left;
+    font-size: 2em;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.tomato {
+    background-color: tomato;
+}
+
+.green {
+    background-color: greenyellow;
+}
